@@ -1,0 +1,123 @@
+#postbox {
+	padding: 10px;
+}
+#postbox ul#post-formats, #postbox ul#post-status {
+	float: left;
+	list-style-type: none;
+	margin: 0 0 10px;
+	padding-left: 0;
+}
+#postbox ul#post-formats li, #postbox ul#post-status li {
+	float: left;
+	list-style-type: none;
+}
+ul#post-formats li a, ul#post-status li a {
+	border: 1px solid;
+	display: block;
+	margin: 0 2px;
+	padding: 0 7px 1px;
+	border-radius: 14px;
+	-moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+}
+ul#post-formats li a.selected, ul#post-formats li a:hover, ul#post-status li a.selected, ul#post-status li a:hover {
+	border: none;
+	font-weight: bold;
+	margin: 0 1px;
+	text-decoration: none;
+}
+ul#inline-sleeve {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.post-status {
+	float:right;
+	margin-right:10px;
+}
+#TB_window {
+	z-index: 999 !important;
+}
+.term-suggest {
+	background-color: #F8F8F8;
+	clear:left;
+	color: #1E1E1E;
+	display: block;
+	height: 1px;
+	overflow: visible;
+	position: absolute;
+}
+.u-suggest {
+	text-decoration: underline;
+}
+#post_cat {
+	background: transparent;
+	border-style: solid;
+	margin: 0 0 4px;
+}
+/* from P2 */
+#postbox {
+	position: relative;
+	padding: 16px 15px 16px 14px;
+	margin-right: 1px;
+}
+#postbox .avatar {
+	margin-top: 16px;
+	float: left;
+	border: 0;
+}
+#postbox .avatar img {
+	padding: 0;
+	border: solid;
+	border-width: 1px;
+}
+#postbox .inputarea {
+	padding-left: 60px;
+	height: 100%;
+}
+#postbox textarea#posttext, textarea.posttext {
+	width: 97.6%;
+	margin-bottom: 6px;
+	border: solid;
+	border-width: 1px;
+	font-size: 13px;
+	padding: 5px 7px;
+}
+#postbox input#tags {
+	width: 70%;
+	float: left;
+}
+#postbox input#submit {
+	margin-left: 6px;
+	padding: 0 20px;
+	float: right;
+}
+#postbox .postrow {
+	height: 28px;
+}
+#media-buttons {
+	line-height: 22px;
+	float: right;
+}
+#media-buttons a img {
+	margin: 0 1px -2px;
+}
+#postbox input#posttitle, #postbox input#postcitation {
+	width: 97.6%;
+	margin-bottom: 5px;
+}
+.inputarea .post-input {
+	display: none;
+}
+.inputarea .selected {
+	display: block;
+}
+.invisible {
+	height: 1;
+	font-size: 1;
+	text-indent: -1000em;
+	width: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
